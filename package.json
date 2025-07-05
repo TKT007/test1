@@ -1,0 +1,20 @@
+{
+  "name": "php-to-js-converter",
+  "version": "1.0.0",
+  "description": "Conversão de script PHP para JavaScript/Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build complete'",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
